@@ -1,0 +1,3 @@
+/Users/xuxuyao/Desktop/workspace_c/progect/cmake-build-debug/CMakeFiles/progect.dir
+/Users/xuxuyao/Desktop/workspace_c/progect/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/xuxuyao/Desktop/workspace_c/progect/cmake-build-debug/CMakeFiles/rebuild_cache.dir
