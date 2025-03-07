@@ -39,7 +39,11 @@ int main(int argc, char const *argv[])
 
 //    structArrayHandle();
 //structPointHandle();
-structWithStructHandle();
+// structWithStructHandle();
+
+// teacherInfoAction();
+sortGameHeroAction();
+
     system("pause");
 
     return 0;

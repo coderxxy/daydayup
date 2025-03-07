@@ -13,3 +13,10 @@ void structArrayHandle();
 void structPointHandle();
 /** 结构体嵌套结构体 */
 void structWithStructHandle();
+
+// 结构体demo
+/// @brief 打印所有老师信息
+void teacherInfoAction();
+
+/// @brief 排序游戏英雄信息
+void sortGameHeroAction();
