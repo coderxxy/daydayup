@@ -1,6 +1,12 @@
 #include <iostream>
 using namespace std;
 
+
+/// @brief  打印数组信息
+/// @param arr      数组int
+/// @param count    数组个数
+/// @param msg      附带信息
+void printArrInfoHandle(int arr[], int count, string msg);
 /// @brief 猜字游戏
 void playGameAction();
 // 水仙花 所有三位数

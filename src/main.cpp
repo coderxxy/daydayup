@@ -6,6 +6,7 @@ using namespace std;
 
 #include "functions.h"
 #include "structs.h"
+#include "contactsSystemManager.h"
 
 ///// @brief 猜字游戏
 //void playGameAction();
@@ -34,7 +35,7 @@ int main(int argc, char const *argv[])
     // clickDeskGame();
     // multiplicationTable();
     // reverseHandle();
-//     sortHandle();
+    // sortHandle();
 //    swapHandle(10, 20);
 
 //    structArrayHandle();
@@ -42,9 +43,12 @@ int main(int argc, char const *argv[])
 // structWithStructHandle();
 
 // teacherInfoAction();
-sortGameHeroAction();
+// sortGameHeroAction();
 
-    system("pause");
+contactsSystemManagerAction();
+
+    // system("pause");
+    
 
     return 0;
 }

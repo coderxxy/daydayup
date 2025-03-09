@@ -11,4 +11,6 @@ add_executable(progect
         src/main.cpp
         src/structs.h
         src/structs.cpp
+        src/accountSystemManager.cpp
+        src/accountSystemManager.h
 )

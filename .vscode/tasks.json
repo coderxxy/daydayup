@@ -18,7 +18,10 @@
 				"-g",
 				"${fileDirname}/*.cpp",
 				"-o",
-				"${workspaceFolder}/target/${fileBasenameNoExtension}"
+				"${workspaceFolder}/target/${fileBasenameNoExtension}",
+				"-lstdc++",//解决只能运行c不能运行c++
+				"&",
+				"pause"
 			],
 			"options": {
 				"cwd": "${fileDirname}"
@@ -32,5 +35,14 @@
 			},
 			"detail": "编译器: /usr/bin/clang++"
 		}
-	]
+	],
+
+    "presentation": {
+        "echo": true,
+        "reveal": "always",
+        "focus": false,
+        "panel": "shared", 
+        "showReuseMessage": true,
+        "clear": false
+    }
 }

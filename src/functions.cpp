@@ -138,11 +138,24 @@ void reverseHandle()
         cout << arr[i] << " ";
     }
 }
+// TODO: 打印数组信息
+void printArrInfoHandle(int arr[], int count, string msg)
+{
+    cout <<"\n"<<msg<<":\n"<< endl;
+    for (int i = 0; i < count; i++)
+    {
+        cout << arr[i] << " ";
+    }
+}
+
 // 冒泡排序 (升序)
 void sortHandle()
 {
     int arr [] = {4,2,8,0,5,7,1,3,9};
     int count = sizeof(arr)/sizeof(arr[0]);
+
+    printArrInfoHandle(arr, count, "排序前");
+
     int temp = 0;
     for (int i = 0; i < count-1; i++)
     {
@@ -157,11 +170,7 @@ void sortHandle()
         }
     }
 
-    cout <<"\n排序后"<< endl;
-    for (int i = 0; i < count; i++)
-    {
-        cout << arr[i] << " ";
-    }
+    printArrInfoHandle(arr, count, "排序后");
 }
 // 值交换
 void swapHandle (int a, int b)

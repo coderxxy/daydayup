@@ -1,4 +1,4 @@
-# Install script for directory: /Users/xuxuyao/Desktop/workspace_c/progect
+# Install script for directory: /Users/xuxuyao/Desktop/workspace_c/daydayup
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/xuxuyao/Desktop/workspace_c/progect/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/xuxuyao/Desktop/workspace_c/daydayup/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
