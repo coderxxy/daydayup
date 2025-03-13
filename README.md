@@ -33,3 +33,10 @@
 
 引用的作用：给变量起别名
 语法：`数据类型 &别名 = 原名`
+
+2025.03.13
+封装案例：求立方体的面积、体积以及分别用全局、局部函数判断两个立方体是否相等
+`int calculateS(); // 求s`
+`int calculateV(); // 求v`
+`bool isSameByClass (rectangledemo &r); // 局部函数`
+`bool isSameRectangle(rectangledemo &r1, rectangledemo &r2); // 全局函数`
