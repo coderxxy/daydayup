@@ -1,7 +1,7 @@
 //
 // Created by coderxxy on 2025/3/9.
 //
-
+#pragma once
 #include <iostream>
 #include <string>
 #include <cstdlib>

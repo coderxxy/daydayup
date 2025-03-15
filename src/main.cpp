@@ -9,8 +9,7 @@ using namespace std;
 #include "contactsSystemManager.h"
 
 #include "rectangledemo.h"
-
-void rectangleTest();
+#include "Person.h"
 
 int main(int argc, char const *argv[])
 {
@@ -35,7 +34,11 @@ int main(int argc, char const *argv[])
 // sortGameHeroAction();
 
 // contactsSystemManagerAction();
-rectangleTest();
+// rectangleTest();
+// initHandle();
+// personTestHandle1();
+personTestHandle2();
+
     // system("pause");
     return 0;
 }

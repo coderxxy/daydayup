@@ -1,5 +1,34 @@
 #include "rectangledemo.h"
 
+// 构造函数
+rectangledemo::rectangledemo()
+{
+    cout << "构造函数\n" <<endl;
+}
+// 析构函数
+rectangledemo::~rectangledemo()
+{
+    cout << "析构函数" << endl;
+}
+// 有参构造函数
+rectangledemo::rectangledemo(int length, int width, int height)
+{
+    this->setL(length);
+    this->setW(width);
+    this->setH(height);
+
+    int s = this->calculateS();
+    int v = this->calculateV();
+
+    cout <<"s:"<<s<<endl;
+    cout<<"v:"<<v<<endl;
+}
+// 拷贝构造函数
+rectangledemo::rectangledemo(const rectangledemo &rt)
+{
+    cout <<"拷贝构造函数\n"<<endl;
+}
+
 void rectangledemo::setL(int l)
 {
     m_l = l;
@@ -88,5 +117,12 @@ void rectangleTest()
     cout <<"是否相等:"<<ret2<<endl;
 }
 
+void initHandle()
+{
+    // 匿名构造函数 
+    // 特点：当前行执行结束后，会被系统立即回收, 个人理解：未创建接收对象，开辟内存空间
+    rectangledemo rtl = rectangledemo(10, 20, 30);
+    // 不要利用拷贝构造函数 初始化匿名对象
+}
 
 

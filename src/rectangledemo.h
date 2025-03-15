@@ -1,3 +1,4 @@
+#pragma once
 #include <iostream>
 #include <string>
 using namespace std;
@@ -17,6 +18,16 @@ private:
     int m_h;
     
 public:
+    // 构造函数
+    rectangledemo();
+    // 析构函数
+    ~rectangledemo();
+    // 有参构造
+    rectangledemo(int length, int width, int height);
+    // 拷贝构造函数
+    rectangledemo(const rectangledemo &rt);
+    
+
     void setL(int l);
     int getL();
 
@@ -32,3 +43,7 @@ public:
 
     bool isSameByClass (rectangledemo &r);
 };
+
+void rectangleTest();
+
+void initHandle();
