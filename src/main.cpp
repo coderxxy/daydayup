@@ -11,6 +11,8 @@ using namespace std;
 #include "rectangledemo.h"
 #include "Person.h"
 
+#include "youyuanlei.h"
+
 int main(int argc, char const *argv[])
 {
     // cout <<"hello world!\n"<<endl;
@@ -37,8 +39,9 @@ int main(int argc, char const *argv[])
 // rectangleTest();
 // initHandle();
 // personTestHandle1();
-personTestHandle2();
+// personTestHandle2();
 
+youyuanTest();
     // system("pause");
     return 0;
 }

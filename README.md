@@ -86,3 +86,13 @@ Person::Person(const Person &p)
     m_height = new int(*p.m_height);
 }
 ```
+#### this指针
+`this指针指向被调用的成员函数所属的对象`
+```
+this指针的用途
+1、当形参和成员变量同名时，可用this指针进行区分；
+2、在类的非静态成员函数中返回对象本身，可使用return *this。
+```
+
+## 2025.04.01 友元类
+`关键字 friend` 例 `youyuanlei.h`
