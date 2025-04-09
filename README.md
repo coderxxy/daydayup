@@ -95,4 +95,19 @@ this指针的用途
 ```
 
 ## 2025.04.01 友元类
-`关键字 friend` 例 `youyuanlei.h`
+1、 `关键字 friend` 例 `youyuanlei.h`
+2、继承 继承方式 `public` `protected` `private`
+
+## 2025.0409 多态、抽象类
+遇到的困难：分文件（.h和.cpp）编写时一直报错
+`AbstractCalculator.cpp:27:25: error: redefinition of 'getResult'`
+最终选择了先在.cpp文件中实现多态、纯虚函数。
+
+#### 纯虚函数公式
+`virtual 函数返回值类型 函数名 = 0;`
+```
+纯虚函数：只要有一个纯虚函数，这个类称为抽象类。
+抽象类特点：
+ · 无法实例化对象；
+ · 抽象类的子类 必须重写父类中的纯虚函数，否则也属于抽象类。
+```

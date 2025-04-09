@@ -13,6 +13,10 @@ using namespace std;
 
 #include "youyuanlei.h"
 
+#include "AbstractCalculator.cpp"
+
+void calculatorTest();
+
 int main(int argc, char const *argv[])
 {
     // cout <<"hello world!\n"<<endl;
@@ -41,9 +45,20 @@ int main(int argc, char const *argv[])
 // personTestHandle1();
 // personTestHandle2();
 
-youyuanTest();
+// youyuanTest();
+calculatorTest();
     // system("pause");
     return 0;
+}
+
+
+// 测试
+void calculatorTest()
+{
+    AddCalculator *addCal = new AddCalculator;
+    addCal->num1 = 100;
+    addCal->num2 = 200;
+    cout << "加法结果：" << addCal->getResult() <<endl;
 }
 
 // 获取个位     n%10
