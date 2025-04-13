@@ -61,6 +61,8 @@ void calculatorTest()
     cout << "加法结果：" << addCal->getResult() <<endl;
 }
 
+
+
 // 获取个位     n%10
 // 获取十位     n/10
 // 获取百位     n/100
