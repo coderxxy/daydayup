@@ -16,6 +16,7 @@ public:
     Person(int age);
     Person(int age, int height);
     Person(string name);
+    Person(string nameChar, int age);
     // 自定义拷贝构造函数 解决浅拷贝带来的问题
     Person(const Person &p);
 
@@ -24,6 +25,7 @@ public:
 
     int m_age;      // 年龄
     int *m_height;  // 身高
+    char m_name[64]; // 姓名
     string name;
 };
 // 全局测试函数

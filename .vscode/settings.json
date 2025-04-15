@@ -11,7 +11,10 @@
         "ostream": "cpp",
         "iostream": "cpp",
         "array": "cpp",
-        "typeinfo": "cpp"
+        "typeinfo": "cpp",
+        "fstream": "cpp",
+        "istream": "cpp",
+        "ios": "cpp"
     },
     // 设置是否可以在终端执行 在settings.json中可以设置"code-runner.runInTerminal": true,这样就可以在终端中运行文件，也就是可以进行输入数据了
     "code-runner.runInTerminal": true,

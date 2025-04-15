@@ -22,6 +22,11 @@ Person::Person(int age)
     m_age = age;
 }
 
+Person::Person(string nameChar, int age){
+    name = nameChar;
+    m_age = age;
+}
+
 Person::Person(int age, int height)
 {
     cout << "有参构造函数" << endl;

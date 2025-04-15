@@ -15,6 +15,8 @@ using namespace std;
 
 #include "AbstractCalculator.cpp"
 
+#include "FileOperater.h"
+
 void calculatorTest();
 
 int main(int argc, char const *argv[])
@@ -46,8 +48,10 @@ int main(int argc, char const *argv[])
 // personTestHandle2();
 
 // youyuanTest();
-calculatorTest();
-    // system("pause");
+// calculatorTest();
+fileOperationHandle(); // 文件操作测试
+
+    system("pause");
     return 0;
 }
 
