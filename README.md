@@ -131,3 +131,6 @@ this指针的用途
 文件操作步骤：1、导入头文件`#include <fstream>`；2、创建文件操作流对象(写文件`ofstream ofs;`, 读文件`ifstream ifs;`)。
 2、二进制方式读写文件
 `ifs.open("person.txt", ios::in | ios::binary);`
+## 2025.05.05 文件读写
+`职工管理系统案例的实现`
+![alt text](image-4.png)
