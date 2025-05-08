@@ -132,5 +132,22 @@ this指针的用途
 2、二进制方式读写文件
 `ifs.open("person.txt", ios::in | ios::binary);`
 ## 2025.05.05 文件读写
-`职工管理系统案例的实现`
+`职工管理系统案例的实现 EmployeeManager`
 ![alt text](image-4.png)
+## 2025.05.08 函数模版
+`函数模版 Otherknowledge::templateTest()`
+```
+注意：1、自动类型推导，必须推导出一致的数据类型 T 才可以使用
+2、模版必须要确定出 T 的数据类型，才可以使用
+```
+
+```
+template<typename T>
+void swapValue(T& A, T& B)
+{
+    T temp = A;
+    A = B;
+    B = temp;
+}
+```
+![alt text](image-5.png)

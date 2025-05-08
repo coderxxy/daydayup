@@ -19,6 +19,8 @@ using namespace std;
 
 #include "EmployeeManager.h"
 
+#include "Otherknowledge.h"
+
 void calculatorTest();
 
 int main(int argc, char const *argv[])
@@ -52,8 +54,13 @@ int main(int argc, char const *argv[])
 // youyuanTest();
 // calculatorTest();
 // fileOperationHandle(); // 文件操作测试
-    EmployeeManager employeeManager = EmployeeManager();
-    employeeManager.employeeManagerAction();
+// 多态demo 职工管理系统
+    // EmployeeManager employeeManager = EmployeeManager();
+    // employeeManager.employeeManagerAction();
+
+    Otherknowledge *otherkld = new Otherknowledge();
+    otherkld->templateTest();
+
     system("pause");
     return 0;
 }
